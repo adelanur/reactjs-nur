@@ -1,0 +1,257 @@
+/* font */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+
+  header{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+  }
+
+  .logo {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 12px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #0D6EFD;
+    font-size: 16px;
+  }
+
+  .active {
+    padding: 12px 16px;
+    background-color: #0D6EFD;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  /* banner */
+
+  #banner-section {
+    background-color: #37517E;  
+    color: #fff;
+    display: flex;
+    height: 120vh;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .banner-img {
+    position: relative;
+    top: -270px;
+  }
+
+  .banner-img img {
+    float: right;
+    width: 52%;
+    height: 52%;
+  }
+
+  .banner-desc {
+    font-family: "Jost", sans-serif;
+    margin-top: 13em;
+  }
+
+  .banner-desc h1 {
+    font-size: 48px;
+    text-transform: capitalize;
+  }
+
+  .banner-desc p {
+    font-size: 24px;
+    color: rgba(255, 255, 255, .6);
+  }
+
+  .banner-button {
+    margin-top: 50px;
+  }
+
+  .btn {
+    border: none;
+    padding: 9px 28px;
+    cursor: pointer;
+    border-radius: 100px;
+  }
+
+  .btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .primary-button {
+    background-color: #47B2E4;
+    font-family: "Jost", sans-serif;
+  }
+
+  .banner-button {
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  #join-section {
+    text-align: center;
+    background-color: #F3F5FA;
+    height: 239px;
+  }
+
+  .join {
+    padding: 50px 0;
+  }
+
+  .join h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #37517E;
+  }
+
+  .join p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 32px;
+  }
+
+  .join input {
+    border-radius: 100px;
+    border: none;
+  }
+
+  .join .text-input {
+    margin-top: 1px;
+    padding: 11px 30px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 80%);
+
+  }
+
+  .join .submit-input {
+    position: absolute;
+    z-index: 2;
+    top: 83.4rem;
+    right: 649px;
+    color: #FFFFFF;
+  }
+
+  footer {
+    background-color: #37517E;
+  }
+
+  footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0;
+  }
+
+  footer p {
+    font-size: 15px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  #profile-section {
+    height: 339.19px;
+    padding: 60px 80px 30px;
+  }
+
+  .company-name {
+    color: #37517E;
+    font-family: 'Jost', sans-serif;
+    font-size: 26px;
+  }
+
+  .company-links {
+    color: #37517E;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+  }
+
+  #profile-section .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .address {
+  color: #5E5E5E;
+  font-family: 'Jost' sans-serif;
+  }
+
+  .phone-num {
+    color: #5E5E5E;
+    font-family: 'Jost' sans-serif;
+  }
+
+  .Links {
+    color: #777777;
+    font-family: 'Open Sans';
+  }
+
+  #About {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  #web {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  #des1 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  #des2 {
+    font-size: 14px;
+  }
+
+  #lingkaran {
+    margin-top: 10px;
+    width: 36px;
+    height: 36px;
+    background-color: #47B2E4;
+    border-radius: 18px;
+  }
+
+  #lingkaran1 {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 36px;
+    height: 36px;
+    background-color: #47B2E4;
+    border-radius: 18px;
+  }
+
+  .ling {
+    display: flex;
+  }
+
+#bot {
+  color: #47B2E4;
+}
